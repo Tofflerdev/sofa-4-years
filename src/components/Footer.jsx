@@ -18,13 +18,13 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
-            href="tel:+70000000000"
+            href="tel:+79857838859"
             className="inline-block bg-white text-[#FF6B6B] px-8 py-3 rounded-full font-bold hover:shadow-lg transition-all duration-300 font-comfortaa"
           >
             Позвонить 📞
           </a>
           <a
-            href="https://t.me/"
+            href="https://t.me/+79857838859"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-white/20 backdrop-blur-sm text-white px-8 py-3 rounded-full border-2 border-white/50 font-bold hover:bg-white/30 transition-all duration-300 font-comfortaa"
