@@ -21,7 +21,7 @@ export default function Hero() {
             <img
               src={import.meta.env.BASE_URL + "photos/hero.webp"}
               alt="Софья Максимовна"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-[center_15%]"
             />
           </div>
           <span className="absolute -bottom-2 -right-2 text-5xl animate-sway">🌺</span>
