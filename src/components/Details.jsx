@@ -35,7 +35,7 @@ export default function Details() {
     return () => clearInterval(id);
   }, []);
 
-  const yandexMapsUrl = 'https://yandex.ru/maps/-/CHEnYQ0R';
+  const yandexMapsUrl = 'https://yandex.ru/maps/org/loft_leon/52369192691/';
 
   return (
     <section id="details" className="bg-white py-16 px-6">
