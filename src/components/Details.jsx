@@ -49,7 +49,7 @@ export default function Details() {
             8 мая 2026
           </p>
           <p className="text-lg text-gray-600 font-comfortaa">
-            Четверг, начало в 17:00
+            Пятница, начало в 17:00
           </p>
         </div>
 
