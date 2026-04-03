@@ -1,0 +1,6 @@
+node_modules
+dist
+_photos
+.playwright-mcp
+screenshot-*.png
+optimize-photos.mjs
