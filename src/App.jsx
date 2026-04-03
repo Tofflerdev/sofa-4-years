@@ -3,6 +3,7 @@ import Details from './components/Details'
 import Timeline from './components/Timeline'
 import Gallery from './components/Gallery'
 import Menu from './components/Menu'
+import Wishlist from './components/Wishlist'
 import DressCode from './components/DressCode'
 import Footer from './components/Footer'
 
@@ -14,6 +15,7 @@ export default function App() {
       <Timeline />
       <Menu />
       <Gallery />
+      <Wishlist />
       <DressCode />
       <Footer />
     </div>
