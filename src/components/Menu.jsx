@@ -19,13 +19,13 @@ export default function Menu() {
           <h3 className="text-xl font-bold text-gray-800 mb-6 text-center font-comfortaa">
             🧒 Детское меню
           </h3>
-          <div className="grid grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
             {kidsMenu.map((item, i) => (
               <div
                 key={i}
-                className="bg-white rounded-2xl p-4 flex items-center gap-3 shadow-sm"
+                className="bg-white rounded-2xl px-4 py-3 flex items-center gap-3 shadow-sm min-w-0"
               >
-                <span className="text-2xl">{item.emoji}</span>
+                <span className="text-2xl flex-shrink-0">{item.emoji}</span>
                 <span className="text-gray-700 font-comfortaa text-sm">{item.name}</span>
               </div>
             ))}
