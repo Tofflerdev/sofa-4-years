@@ -4,6 +4,7 @@ const kidsMenu = [
   { emoji: '🍗', name: 'Наггетсы' },
   { emoji: '🧀', name: 'Сырные палочки' },
   { emoji: '🍟', name: 'Картошка фри' },
+  { emoji: '🍉', name: 'Фрукты' },
 ];
 
 export default function Menu() {
