@@ -28,7 +28,7 @@ export default function Gallery() {
                 <img
                   src={import.meta.env.BASE_URL + photo.src}
                   alt={photo.alt}
-                  className="w-full h-48 md:h-64 object-cover rounded-xl"
+                  className="w-full aspect-[3/4] object-cover object-top rounded-xl"
                   loading="eager"
                 />
               </div>
